@@ -3,8 +3,8 @@ class VenuesController < ApplicationController
 
   def search
     @q = CGI.escapeHTML(params[:q])
-    v = current_user.foursquare.venues(:q => CGI.escape(params[:q]), 
-                                       :geolat => params[:lat], 
+    v = current_user.foursquare.venues(:q => CGI.escape(params[:q]),
+                                       :geolat => params[:lat],
                                        :geolong => params[:long])
     if v.blank?
       @venues = []

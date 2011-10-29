@@ -1,11 +1,11 @@
-body { 
+body {
   width: 100%;
   margin: 0;
   padding: 0;
   font-family: Verdana, sans-serif;
 }
 
-#header-wrapper { 
+#header-wrapper {
   border-bottom: 1px solid #000;
   background-color: #2398C9;
   margin-top: 0;
@@ -15,27 +15,27 @@ body {
   margin-bottom: 15px;
 }
 
-#header-logo { 
+#header-logo {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
 }
 
-#header-logo a { 
+#header-logo a {
   color: #fff;
   text-decoration: none;
 }
 
-#header-nav { 
+#header-nav {
   font-size: 13px;
   color: #fff;
 }
 
-#header-nav a { 
+#header-nav a {
   color: #fff;
 }
 
-#content-wrapper { 
+#content-wrapper {
 }
 
 #footer-wrapper {
@@ -49,75 +49,75 @@ body {
   color: #444;
 }
 
-ul { 
+ul {
   width: 100%;
   padding: 0;
   border-top: 1px solid #333;
 }
 
-ul li { 
+ul li {
   list-style: none;
   padding: 15px;
   border-bottom: 1px solid #333;
 }
 
-ul li a { 
+ul li a {
   text-decoration: none;
   color: #000;
 }
 
-.list-link { 
+.list-link {
   display: block;
   padding: 0;
   border: 0;
 }
 
-.list-a { 
+.list-a {
   background-color: #ddd;
 }
 
-.list-b { 
+.list-b {
   background-color: #bbb;
 }
 
-.small-light { 
+.small-light {
   font-size: 11px;
   color: #555;
 }
 
-#search-venue-form-wrapper { 
+#search-venue-form-wrapper {
   text-align: center;
 }
-#search-venue-form-wrapper input { 
+#search-venue-form-wrapper input {
   width: 90%;
   height: 30px;
   font-size: 20px;
 }
 
-#add-venue-form-wrapper input { 
+#add-venue-form-wrapper input {
   width: 90%;
   height: 30px;
   font-size: 20px;
 }
 
-.notice { 
+.notice {
   background-color: #ffff99;
   padding: 10px;
 }
 
-.warning { 
+.warning {
   background-color: #ffcc00;
   padding: 10px;
 }
 
-.error { 
+.error {
   background-color: #ff3300;
   padding: 10px;
 }
 
-#flash-wrapper { 
+#flash-wrapper {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 15px;
-  margin-bottom: 15px;                 
+  margin-bottom: 15px;
 }

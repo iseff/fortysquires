@@ -6,8 +6,8 @@ class CheckinController < ApplicationController
 
 
   def nearby_venues
-    @venues = current_user.foursquare.venues(:geolat => params[:lat], 
-                                             :geolong => params[:long], 
+    @venues = current_user.foursquare.venues(:geolat => params[:lat],
+                                             :geolong => params[:long],
                                              :limit => 10)
     render :layout => false
   end
