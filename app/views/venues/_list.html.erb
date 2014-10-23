@@ -11,12 +11,12 @@
 	    <%= venue["address"] %>,
 	  <% end %>
 	  <% unless venue["city"].blank? %>
-	    <%= venue["city"] %>, 
+	    <%= venue["city"] %>,
 	  <% end %>
 	  <% unless venue["state"].blank? %>
 	    <%= venue["state"] %>
 	  <% end %>
-	  
+
 	  <% unless venue["stats"].andand["herenow"].blank? %>
 	    (<%= venue["stats"]["herenow"] %> <%= venue["stats"]["herenow"].to_i == 1 ? "person" : "people" %> here now)
 	  <% end %>
